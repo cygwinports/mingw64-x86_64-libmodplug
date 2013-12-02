@@ -1,0 +1,12 @@
+CROSS_HOST="x86_64-w64-mingw32"
+inherit cross
+
+NAME="mingw64-x86_64-libmodplug"
+VERSION=0.8.8.4
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="MOD music library for Win64 toolchain"
+DESCRIPTION="MOD music library based on ModPlug"
+HOMEPAGE="http://modplug-xmms.sourceforge.net/"
+SRC_URI="mirror://sourceforge/modplug-xmms/libmodplug-${VERSION}.tar.gz"
+SRC_DIR="libmodplug-${VERSION}"
