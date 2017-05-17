@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross
 
 NAME="mingw64-x86_64-libmodplug"
-VERSION=0.8.8.5
+VERSION=0.8.9.0
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="MOD music library for Win64 toolchain"
